@@ -1,0 +1,6 @@
+{
+	"name": "hce-selfhosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
