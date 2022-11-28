@@ -1,0 +1,10 @@
+{
+	"name": "AzureBlobStorage_hce",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/7bd3d2cf-2917-48aa-b2d0-6694b313f56e/resourceGroups/hce-rg/providers/Microsoft.Storage/storageAccounts/hce1sable",
+		"groupId": "blob",
+		"fqdns": [
+			"hce1sable.blob.core.windows.net"
+		]
+	}
+}
