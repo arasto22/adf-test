@@ -23,7 +23,11 @@
 					},
 					"dataset": {
 						"referenceName": "SqlServerTest",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schemaname": "a",
+							"tablename": "b"
+						}
 					}
 				}
 			}
