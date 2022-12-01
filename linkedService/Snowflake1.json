@@ -1,0 +1,21 @@
+{
+	"name": "Snowflake1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Snowflake",
+		"typeProperties": {
+			"connectionString": "jdbc:snowflake://uhg_optumcare.east-us-2.azure.snowflakecomputing.com/?user=ocuds.etlcdp@optum.com&db=OCDP_PRD_OCUDL_HCE_DB&warehouse=OCDP_PRD_OCUDL_DATA_LOAD_WH",
+			"authenticationType": "Oauth",
+			"oauthTokenEndpoint": "https://login.microsoftonline.com/db05faca-c82a-4b9d-b9c5-0f64b6755421/oauth2/v2.0/authorize",
+			"clientId": "ab9200ba-e5ed-45bc-a060-1d5c047c1f45",
+			"oauthUserName": "ocuds.etlcdp@optum.com",
+			"scope": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU4ODE5QThELTk4OEEtNEQxOC04RDlCLTk1QjkwQzE5ODA5M19iYjgyMjViZi1hZmZjLTQ1MGMtOGVhNS0yODJmZWY1M2EyOWQiDQp9"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
